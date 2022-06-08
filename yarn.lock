@@ -2848,7 +2848,7 @@
     web3 "^0.20.7"
     web3-provider-engine "^16.0.3"
 
-"@metamask/controllers@^30.0.0":
+"@metamask/controllers@^30.0.0", "@metamask/controllers@^30.0.1":
   version "30.0.1"
   resolved "https://registry.yarnpkg.com/@metamask/controllers/-/controllers-30.0.1.tgz#8d57d6abcb9bf0376c00b5bcc79154096f115c16"
   integrity sha512-uOAjReSEofaX54g9tUauCzPDK1pE4iGLj12oPSoV6LDUpHPOO5H0PnERg+qNK6fWBXf7sFOTFNsx2n2WYQgt3g==
@@ -11194,6 +11194,13 @@ eth-method-registry@^2.0.0:
     ethjs "^0.4.0"
 
 eth-phishing-detect@^1.1.16, eth-phishing-detect@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eth-phishing-detect/-/eth-phishing-detect-1.2.0.tgz#11b357776b2d1b98a9ac594a1343e5184fc26bf0"
+  integrity sha512-+M7D4dhu5tkSA9b5eiBwDeJCjwy+7Lv49nuTEw8fNZIZUAVZC3d2XHatBq1MOW7J8kxNGbBdgBuIf65opI7Tkg==
+  dependencies:
+    fast-levenshtein "^2.0.6"
+
+eth-phishing-detect@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eth-phishing-detect/-/eth-phishing-detect-1.2.0.tgz#11b357776b2d1b98a9ac594a1343e5184fc26bf0"
   integrity sha512-+M7D4dhu5tkSA9b5eiBwDeJCjwy+7Lv49nuTEw8fNZIZUAVZC3d2XHatBq1MOW7J8kxNGbBdgBuIf65opI7Tkg==
