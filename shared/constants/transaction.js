@@ -66,6 +66,7 @@ export const TRANSACTION_TYPES = {
   TOKEN_METHOD_SAFE_TRANSFER_FROM: 'safetransferfrom',
   TOKEN_METHOD_TRANSFER: 'transfer',
   TOKEN_METHOD_TRANSFER_FROM: 'transferfrom',
+  SET_APPROVAL_FOR_ALL: 'setapprovalforall',
 };
 
 /**
