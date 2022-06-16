@@ -164,6 +164,16 @@ async function setupMocking(server, testSpecificMock) {
       };
     });
 
+  await server
+    .forGet(
+      'https://static.metaswap.codefi.network/api/v1/tokenIcons/1337/0x2efa2cb29c2341d8e5ba7d3262c9e9d6f1bf3711.png',
+    )
+    .thenCallback(() => {
+      return {
+        statusCode: 200,
+      };
+    });
+
   testSpecificMock(server);
 }
 
