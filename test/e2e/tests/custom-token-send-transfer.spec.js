@@ -316,13 +316,13 @@ describe('Send a custom token from dapp', function () {
           tag: 'button',
         });
 
-        const assets = await driver.findElement(
+        const assets = await driver.findElements(
           '.asset-list-item__token-button',
         );
         assert.equal(
-          await assets.getAttribute('title'),
+          await assets[1].getAttribute('title'),
           '8.5 TST',
-          'Token amount is not correct',
+          'Token amount is not correct'
         );
       },
     );
