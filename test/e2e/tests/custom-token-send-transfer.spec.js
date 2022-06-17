@@ -316,13 +316,11 @@ describe('Send a custom token from dapp', function () {
           tag: 'button',
         });
 
-        const assets = await driver.findElements(
-          '.asset-list-item__token-button',
-        );
+        const assets = await driver.findElement('[title="8.5 TST"]');
         assert.equal(
-          await assets[1].getAttribute('title'),
+          await assets.getAttribute('title'),
           '8.5 TST',
-          'Token amount is not correct'
+          'Token amount is not correct',
         );
       },
     );
@@ -429,11 +427,9 @@ describe('Transfers a custom token from dapp when no gas value is specified', fu
           tag: 'button',
         });
 
-        const assets = await driver.findElements(
-          '.asset-list-item__token-button',
-        );
+        const assets = await driver.findElement('[title="8.5 TST"]');
         assert.equal(
-          await assets[1].getAttribute('title'),
+          await assets.getAttribute('title'),
           '8.5 TST',
           'Token amount is not correct',
         );
