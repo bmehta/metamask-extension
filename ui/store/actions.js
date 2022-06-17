@@ -1644,10 +1644,10 @@ export function addDetectedTokens(newDetectedTokens) {
  *
  * @param tokensToImport
  */
-export function importTokens(tokensToImport) {
+export function addImportedTokens(tokensToImport) {
   return async (dispatch) => {
     try {
-      await promisifiedBackground.importTokens(tokensToImport);
+      await promisifiedBackground.addImportedTokens(tokensToImport);
     } catch (error) {
       log.error(error);
     } finally {
@@ -1657,7 +1657,7 @@ export function importTokens(tokensToImport) {
 }
 
 /**
- * To add ignored tokens to state
+ * To add ignored token addresses to state
  *
  * @param tokensToIgnore
  */
