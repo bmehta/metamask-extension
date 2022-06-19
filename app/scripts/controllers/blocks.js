@@ -32,7 +32,7 @@ export default class BlockController {
 
   resetBlockList = () => {
     this.store.updateState({
-      blocks: {},
+      blocks: [],
     });
   };
 }

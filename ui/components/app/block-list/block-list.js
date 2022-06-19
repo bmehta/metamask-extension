@@ -14,7 +14,6 @@ const BlockList = () => {
         <Button
           type="secondary"
           rounded
-          disabled
           onClick={() => dispatch(resetBlockList())}
         >
           Reset Block List
