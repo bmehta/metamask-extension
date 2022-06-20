@@ -2066,6 +2066,9 @@
     "message": "Nonce 高于建议的 nouce 值 $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "非同质化代币(NFT)"
+  },
   "nftTokenIdPlaceholder": {
     "message": "输入代币ID"
   },

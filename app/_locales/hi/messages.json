@@ -2066,6 +2066,9 @@
     "message": "नॉन्स $1 के सुझाए गए नॉन्स से अधिक है",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "संग्रहणीय ID दर्ज करें"
   },
@@ -2133,7 +2136,7 @@
     "message": "पर्याप्त गैस नहीं"
   },
   "notifications": {
-    "message": "सूचनाएं"
+    "message": "नोटीफिकेशन"
   },
   "notifications10ActionText": {
     "message": "सेटिंग्स में जाएं",
@@ -2259,14 +2262,14 @@
     "message": "यहाँ देखने के लिए कुछ नहीं है।"
   },
   "notificationsHeader": {
-    "message": "सूचनाएं"
+    "message": "नोटीफिकेशन"
   },
   "notificationsInfos": {
-    "message": "$1 से $2",
+    "message": "$1 को $2 से",
     "description": "$1 is the date at which the notification has been dispatched and $2 is the link to the snap that dispatched the notification."
   },
   "notificationsMarkAllAsRead": {
-    "message": "सभी को पढ़ा हुआ मार्क करें"
+    "message": "सभी को पढ़ा हुआ चिन्हित करें"
   },
   "numberOfNewTokensDetected": {
     "message": "इस खाते में $1 के नए टोकन पाए गए",
@@ -2653,7 +2656,7 @@
     "message": "आगे बढ़ने से पहले ये सुनिश्चित करें कि आप सही सीक्रेट रिकवरी फ़्रेज़ का इस्तेमाल कर रहे हैं। इसे आप अनडू नहीं कर पाएंगे।"
   },
   "restartMetamask": {
-    "message": "मेटामास्क को पुनरारंभ करें"
+    "message": "MetaMask को फिर से शुरू करें"
   },
   "restore": {
     "message": "पुनर्स्थापित करें"
@@ -3171,10 +3174,10 @@
     "message": "स्मार्ट लेनदेन अनुपलब्ध होने पर भी आप अपने टोकनों को स्वैप कर सकते हैं।"
   },
   "stxPendingPrivatelySubmittingSwap": {
-    "message": "आपका स्वैप निजी रूप से भेजा जा रहा है..."
+    "message": "आपका स्वैप निजी रूप से सबमिट किया जा रहा है..."
   },
   "stxPendingPubliclySubmittingSwap": {
-    "message": "आपका स्वैप सार्वजनिक रूप से भेजा जा रहा है..."
+    "message": "आपका स्वैप सार्वजनिक रूप से सबमिट किया जा रहा है..."
   },
   "stxSubDescription": {
     "message": "* स्मार्ट लेनदेन आपके लेनदेन को निजी तौर पर, अनेक बार जमा करने का प्रयास करेंगे। यदि सभी प्रयास विफल हो जाते हैं, तो लेनदेन को सार्वजनिक रूप से प्रसारित किया जाएगा ताकि यह सुनिश्चित हो सके कि आपका स्वैप सफलतापूर्वक पूरा हो।"
@@ -3187,7 +3190,7 @@
     "description": "$1 is a token symbol, e.g. ETH"
   },
   "stxSwapCompleteIn": {
-    "message": "स्वैप < में पूरा होगा",
+    "message": "स्वैप पूरा होने में शेष समय <",
     "description": "'<' means 'less than', e.g. Swap will complete in < 2:59"
   },
   "stxTooltip": {
@@ -3812,7 +3815,7 @@
     "description": "$1 is the wallet device name; $2 is a link to wallet connection guide"
   },
   "troubleStarting": {
-    "message": "मेटामास्क को शुरू करने में दिक्कत हुई। यह त्रुटि रुक-रुक कर हो सकती है, इसलिए एक्सटेंशन को पुनरारंभ करने का प्रयास करें।"
+    "message": "MetaMask को शुरू करने में परेशानी आई। यह त्रुटि रुक-रुक कर हो सकती है, इसलिए एक्सटेंशन को फिर से शुरू करके देखें।"
   },
   "troubleTokenBalances": {
     "message": "हमें आपके टोकन की शेषराशि लोड करने में परेशानी हुई। आप उन्हें देख सकते हैं ",

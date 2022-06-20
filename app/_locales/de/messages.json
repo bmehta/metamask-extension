@@ -2066,6 +2066,9 @@
     "message": "Nonce ist höher als vorgeschlagen nonce von $1",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "Token-ID eingeben"
   },

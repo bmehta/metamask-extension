@@ -2066,6 +2066,9 @@
     "message": "임시값이 권장 임시값인 $1보다 큽니다.",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT\n"
+  },
   "nftTokenIdPlaceholder": {
     "message": "수집 가능한 ID를 입력하세요."
   },

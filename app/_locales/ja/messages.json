@@ -2066,6 +2066,9 @@
     "message": "ナンスが提案され$1よりも大きいです",
     "description": "The next nonce according to MetaMask's internal logic"
   },
+  "nft": {
+    "message": "NFT"
+  },
   "nftTokenIdPlaceholder": {
     "message": "コレクティブルIDを入力してください"
   },
