@@ -35,4 +35,37 @@ describe('BlockList', () => {
     expect(getByText('GasUsed: 0x5')).toBeInTheDocument();
     expect(getByText('Transaction Count: 1')).toBeInTheDocument();
   });
+
+  it('should reset the block list', () => {
+    const store = configureMockStore(middleware)(createBlocksMockStore());
+    const { getByText, getByRole } = renderWithProvider(<BlockList />, store);
+
+    const button = getByRole('button', { name: /reset/i });
+    button.simulate('click');
+
+    expect(getByText('Number: 0x1')).not.toBeInTheDocument();
+
+  });
+
+  it('should toggle base', () => {
+    const store = configureMockStore(middleware)(createBlocksMockStore());
+    const { getByText, getByRole } = renderWithProvider(<BlockList />, store);
+
+    const button = getByRole('button', { name: /display/i });
+    button.simulate('click');
+
+    expect(getByText('Number: 1')).toBeInTheDocument();
+
+  });
+
+  it('should delete block', () => {
+    const store = configureMockStore(middleware)(createBlocksMockStore());
+    const { getByText, getByRole } = renderWithProvider(<BlockList />, store);
+
+    const button = getByRole('button', { name: /delete/i });
+    button.simulate('click');
+
+    expect(getByText('Number: 0x1')).not.toBeInTheDocument();
+
+  });
 });
