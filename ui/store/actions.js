@@ -3752,5 +3752,23 @@ export function cancelQRHardwareSignRequest() {
   return async (dispatch) => {
     dispatch(hideLoadingIndication());
     await promisifiedBackground.cancelQRHardwareSignRequest();
+  }
+}
+
+export function resetBlockList() {
+  return () => {
+    return promisifiedBackground.resetBlockList();
+  };
+}
+
+export function toggleBase() {
+  return () => {
+    return promisifiedBackground.toggleBase();
+  };
+}
+
+export function deleteBlock(blockNumber) {
+  return () => {
+    return promisifiedBackground.deleteBlock(blockNumber);
   };
 }
