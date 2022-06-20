@@ -383,6 +383,7 @@ describe('Transfers a custom token from dapp when no gas value is specified', fu
         windowHandles = await getWindowHandles(driver, 3);
 
         await driver.switchToWindow(windowHandles.popup);
+        await driver.waitForSelector({ text: 'Confirm', tag: 'button' });
         await driver.clickElement({ text: 'Confirm', tag: 'button' });
         await driver.switchToWindow(windowHandles.extension);
         await driver.clickElement({ tag: 'button', text: 'Activity' });
