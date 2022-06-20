@@ -1963,6 +1963,15 @@ export default class MetamaskController extends EventEmitter {
         this.blockController,
       ),
 
+      toggleBase: this.blockController.toggleBase.bind(
+        this.blockController,
+       ),
+
+      deleteBlock: this.blockController.deleteBlock.bind(
+        this.blockController,
+      ),
+
+
       /** Token Detection V2 */
       addDetectedTokens: process.env.TOKEN_DETECTION_V2
         ? tokensController.addDetectedTokens.bind(tokensController)

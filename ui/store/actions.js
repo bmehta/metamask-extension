@@ -3760,3 +3760,15 @@ export function resetBlockList() {
     return promisifiedBackground.resetBlockList();
   };
 }
+
+export function toggleBase() {
+  return () => {
+    return promisifiedBackground.toggleBase();
+  };
+}
+
+export function deleteBlock(blockNumber) {
+  return () => {
+    return promisifiedBackground.deleteBlock(blockNumber);
+  };
+}
